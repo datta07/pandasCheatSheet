@@ -14,8 +14,8 @@ Changing Column names:- df.set_axis(['V', 'W', 'X', 'Y', 'Z'], axis=1, inplace=F
                         df.rename(columns={'a': 'X', 'b': 'Y'}) (To chnage Specfic columns)
 #https://stackoverflow.com/questions/19585280/convert-pandas-dataframe-into-list-of-lists
 
-Dataframe conertion:- to_excel,to_csv,to_html
+Dataframe Convertion:- to_excel,to_csv,to_html
 
-Getting dataframe of selected vales:- df.loc[df['column_name'] == some_value]
+Getting dataframe of selected values:- df.loc[df['column_name'] == some_value]
 ! VIEW BELOW LINK FOR MORE SPECIFICATIONS
 #https://stackoverflow.com/questions/17071871/how-to-select-rows-from-a-dataframe-based-on-column-values
