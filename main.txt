@@ -19,3 +19,8 @@ Dataframe Convertion:- to_excel,to_csv,to_html
 Getting dataframe of selected values:- df.loc[df['column_name'] == some_value]
 ! VIEW BELOW LINK FOR MORE SPECIFICATIONS
 #https://stackoverflow.com/questions/17071871/how-to-select-rows-from-a-dataframe-based-on-column-values
+
+Getting Rows and coloumns:-(iloc and loc)
+->    df.loc[:,'AC NAME'] (use names and indexs [column list,row list])
+->    df.iloc[:,1] (use numbers [column list,row list])
+#https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
