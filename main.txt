@@ -24,3 +24,9 @@ Getting Rows and coloumns:-(iloc and loc)
 ->    df.loc[:,'AC NAME'] (use names and indexs [column list,row list])
 ->    df.iloc[:,1] (use numbers [column list,row list])
 #https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
+
+Taking dataFrame from the dict
+->    pd.DataFrame(dict)
+
+Save dataframe to excel
+->    to_excel(df)
